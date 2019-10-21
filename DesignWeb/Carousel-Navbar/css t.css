@@ -1,0 +1,109 @@
+html, body {
+    height: 100%;
+    font-size: 10px;
+    background-image: url("projet 20 octobre/img/star.jpg");
+}
+h1{
+    font-size: 4rem;
+}
+h3{
+    font-size: 4rem;
+}
+h2{
+    font-size: 7.5rem;
+}
+.text1{
+    background-color: #696969;
+    opacity: 0.6;
+}
+.text2{
+    background-color: #6c757d;
+    opacity: 0.7;
+}
+.StarCitizen3{
+    align-items: end;
+}
+.StarCitizen2{
+    /* L’image du Parallax */
+    background-image: url("projet 20 octobre/img/Star Citizen 2.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+    min-height: 500px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h4{
+    font-size: 2.3rem;
+}
+.StarCitizen4{
+    /* L’image du Parallax */
+    background-image: url("projet 20 octobre/img/Star Citizen 4.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+    min-height: 500px;
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    position: relative;
+    background-color: black;
+    height: 100%;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+header .container {
+    position: relative;
+    z-index: 2;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+.bg1 {
+    background-color: white;
+}
+.font{
+    height: 300px;
+    align-content: center;
+}
+.h5{
+    font-size: 2.3rem;
+    color: dodgerblue;
+}
+.font1{
+    height: 100px;
+}
+.h4{
+    font-size: 2.3rem;
+}

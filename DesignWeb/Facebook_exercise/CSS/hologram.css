@@ -3,7 +3,7 @@
     height: 900px;
 }
 .img1{
-    background-image: url("../img/system of a down.jpg");
+    background-image: url("../../../../../../PhpstormProjects/Exercice4/img/system of a down.jpg");
     background-size: cover;
     height: 1080px;
 }
@@ -19,16 +19,16 @@ hr{
     height: 900px;
 }
 .img2{
-    background-image: url("../img/album 1.jpg");
+    background-image: url("../../../../../../PhpstormProjects/Exercice4/img/album 1.jpg");
 
     height: 360px;
 
 }
 .img3{
-    background-image: url("../img/logo.png");
+    background-image: url("../../../../../../PhpstormProjects/Exercice4/img/logo.png");
     height: 360px;
 }
 .img4{
-    background-image: url("../img/toxicity.jpg");
+    background-image: url("../../../../../../PhpstormProjects/Exercice4/img/toxicity.jpg");
     height: 360px;
 }

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="CSS/bootstrap.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="CSS Car.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="JS/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+<nav class="navbar fixed-top navbar-expand-lg">
+    <a class="navbar-brand">PARADIS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"   aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active"><a class="nav-link" href="#">Bob Ross<span class="sr-only">(current)</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Stan Lee</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Triple Stephan
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Stefan Karl</a>
+                    <a class="dropdown-item" href="#">Stephan Hawking</a>
+                    <a class="dropdown-item" href="#">Stephen Hillenburg</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container-fluid">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="img-fluid" src="img/bob ross 1.jpg" alt="Bob Ross">
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid" src="img/bob ross 2.jpg" alt="Ssor Bob">
+            </div>
+            <div class="carousel-item">
+                <img class="img-fluid" src="img/bob ross 3.jpg" alt="Ross Bob" >
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="text-center">
+            <div class="col-xl-2">
+                <i class="fas fa-palette"></i>
+                <h1>Bob Ross, le peintre, décédé le 4 juillet 1995</h1>
+            </div>
+            <div class="col-xl-2">
+                <i class="fas fa-mask"></i>
+                <h1>Stan Lee, l'auteur décédé le 12 novembre 2018</h1>
+            </div>
+            <div class="col-xl-2">
+                <i class="fas fa-theater-masks"></i>
+                <h1>Stefán Karl Stefánsson, l'acteur, décédé le 21 août 2018</h1>
+            </div>
+            <div class="col-xl-2">
+                <i class="fas fa-palette"></i>
+                <h1>Bob Ross, le peintre, décédé le 4 juillet 1995</h1>
+            </div>
+            <div class="col-xl-2">
+                <i class="fas fa-palette"></i>
+                <h1>Bob Ross, le peintre, décédé le 4 juillet 1995</h1>
+            </div>
+            <div class="col-xl-2">
+                <i class="fas fa-palette"></i>
+                <h1>Bob Ross, le peintre, décédé le 4 juillet 1995</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Ouvrir le modal
+</button>
+
+<div class="jumbotron" tabindex="-1" role="dialog" id="exampleModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Pewdiepie VS T-Series</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>The ultimate battle between the most powerful being.</p>
+                <img src="img/pewds vs ts.jpg" class="img-fluid"/>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">I'm in</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">I'm gay</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+<script src="JS/jquery-3.4.1.min.js"></script>
+<script src="JS/bootstrap.js/"></script>
+
+</body>
+</html>
