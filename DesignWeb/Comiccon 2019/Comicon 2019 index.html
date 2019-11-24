@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Comicon 2019</title>
+    <link rel="stylesheet" href="comiccon 2019 css.css">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <script src="JS/jquery-3.4.1.min.js" defer></script>
+    <script src="JS/bootstrap.js" defer></script>
+    <script src="comiccon 2019 js.js " defer></script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-xl-12">
+            <div class="form-group">
+                <label for="username">Nom d'utilisateur</label>
+                <label class="form-text" for="username"></label>
+                <input class="form-control" id="username" aria-describedby="uservalidity" placeholder="Entrer le nom d'utilisateur">
+                <small id="uservalidity" class="form-text text-muted"></small>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xl-12">
+            <div class="form-group">
+                <label for="password">Password</label>
+                <label class="form-text" for="password" id="password1"></label>
+                <input class="form-control" id="password" aria-describedby="passvalidity1" placeholder="Entrer le mot de passe">
+                <small id="passvalidity1" class="form-text text-muted"></small>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+         <div class="col-xl-12">
+            <div class="form-group">
+                <label for="vérification">Vérification</label>
+                <label class="form-text" for="vérification"></label>
+                <input class="form-control" id="vérification" aria-describedby="passvalidity2" placeholder="Vérifier le mot de passe">
+                <small id="passvalidity2" class="form-text text-muted"></small>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xl-12">
+            <div class="form-group">
+                <label for="email">Adresse couriel</label>
+                <label class="form-text" for="email"></label>
+                <input class="form-control" id="email" aria-describedby="emailvalidity" placeholder="Entrer votre adresse couriel">
+                <small id="emailvalidity" class="form-text text-muted"></small>
+            </div>
+        </div>
+    </div>
+    <div class="row text-center">
+        <h1>Voici les choix de costumes possibles pour le Comicon 2019</h1>
+    </div>
+    <br>
+    <div class="row no-gutters">
+        <div class="col-xl-4">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="starwars" value="option1" checked>
+                <label class="form-check-label" for="starwars">
+                    Star Wars
+                </label>
+            </div>
+            <img class="img-fluid" src="Images/Yoda.png" alt="yoda" id="yoda"/>
+            <br>
+            <input class="form-check-input radio1" type="radio" name="exampleRadios" id="Yoyodada" value="option1" checked>
+            <label class="form-check-label radio1" for="Yoyodada">
+                Yoda
+            </label>
+            <br>
+            <input class="form-check-input radio1" type="radio" name="exampleRadios" id="Luke" value="option2" checked>
+            <label class="form-check-label radio1" for="Luke">
+                Luke Skywalker
+            </label>
+            <br>
+            <input class="form-check-input radio1" type="radio" name="exampleRadios" id="Vador" value="option3" checked>
+            <label class="form-check-label radio1" for="Vador">
+                Darth Vador
+            </label>
+            <br>
+            <input class="form-check-input radio1" type="radio" name="exampleRadios" id="Obi" value="option4" checked>
+            <label class="form-check-label radio1" for="Obi">
+                Obi wan
+            </label>
+            <br>
+            <input class="form-check-input radio1" type="radio" name="exampleRadios" id="Leia" value="option5" checked>
+            <label class="form-check-label radio1" for="Leia">
+                Leia Amidala
+            </label>
+        </div>
+        <div class="col-xl-4">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="Marvel" value="option2" checked>
+                <label class="form-check-label" for="Marvel">
+                    Marvel
+                </label>
+            </div>
+            <img class="img-fluid" src="Images/spiderman.jpg" alt="spiderman" id="spiderman"/>
+            <br>
+            <input class="form-check-input radio2" type="radio" name="exampleRadios" id="Spider" value="option1" checked>
+            <label class="form-check-label radio2" for="Spider">
+                Spiderman
+            </label>
+            <br>
+            <input class="form-check-input radio2" type="radio" name="exampleRadios" id="Thor" value="option2" checked>
+            <label class="form-check-label radio2" for="Thor">
+                Thor
+            </label>
+            <br>
+            <input class="form-check-input radio2" type="radio" name="exampleRadios" id="Hulk" value="option3" checked>
+            <label class="form-check-label radio2" for="Hulk">
+                Hulk
+            </label>
+            <br>
+            <input class="form-check-input radio2" type="radio" name="exampleRadios" id="Captain" value="option4" checked>
+            <label class="form-check-label radio2" for="Captain">
+                Captain America
+            </label>
+            <br>
+            <input class="form-check-input radio2" type="radio" name="exampleRadios" id="Black" value="option5" checked>
+            <label class="form-check-label radio2" for="Black">
+                Black Widow
+            </label>
+        </div>
+        <div class="col-xl-4">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="DC" value="option3" checked>
+                <label class="form-check-label" for="DC">
+                    DC Comics
+                </label>
+            </div>
+            <img class="img-fluid" src="Images/batman.jpg" alt="batman" id="batman"/>
+            <br>
+            <input class="form-check-input radio3" type="radio" name="exampleRadios" id="Bat" value="option1" checked>
+            <label class="form-check-label radio3" for="Bat">
+                Batman
+            </label>
+            <br>
+            <input class="form-check-input radio3" type="radio" name="exampleRadios" id="Superman" value="option2" checked>
+            <label class="form-check-label radio3" for="Superman">
+                Superman
+            </label>
+            <br>
+            <input class="form-check-input radio3" type="radio" name="exampleRadios" id="Green" value="option3" checked>
+            <label class="form-check-label radio3" for="Green">
+                Green Lantern
+            </label>
+            <br>
+            <input class="form-check-input radio3" type="radio" name="exampleRadios" id="Wonder" value="option4" checked>
+            <label class="form-check-label radio3" for="Wonder">
+                Wonder Woman
+            </label>
+            <br>
+            <input class="form-check-input radio3" type="radio" name="exampleRadios" id="Flash" value="option5" checked>
+            <label class="form-check-label radio3" for="Flash">
+                Flash
+            </label>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

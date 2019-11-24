@@ -1,0 +1,9 @@
+var nom;
+var hp;
+var espece;
+var taille;
+var poids;
+var faiblesses;
+var resistence;
+var retraite;
+var illustrateur;0

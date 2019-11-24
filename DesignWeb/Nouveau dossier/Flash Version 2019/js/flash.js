@@ -1,0 +1,33 @@
+$('#flashID').css("position","relative");
+$('#boutonChangerImage').click(function(){
+    $('#flashID').attr("src","img/Flash2.png")
+});
+$('#boutonEnleverImage').click(function(){
+    $('#flashID').hide()
+});
+$('#boutonAjouterImage').click(function(){
+    $('#flashID').show()
+});
+ $('#boutonAjouterAttribut').click(function(){
+    $('#flashID').attr("alt","Flash qui fuit l'Allemagne Nazi en 1942")
+});
+$('#boutonAjouterTitre').click(function(){
+    $('body').prepend("<h1>Justice League</h1>")
+});
+$('#boutonNuke').click(function(){
+    $('.centralCity').css("background-image",'url("img/nuke.jpg")')
+    $('.col-12').hide()
+    $('.col-xl-2').hide()
+});
+$('#boutonDroite').click(function(){
+    $('#flashID').css("left","150px")
+});
+$('#boutonGauche').click(function(){
+    $('#flashID').css("left","0px")
+});
+$('#boutonDupliquer').click(function(){
+    $('#flashID').clone("InsertAfter","#flashID")
+});
+$('#boutonTeleport').click(function(){
+    if
+});

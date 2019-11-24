@@ -1,0 +1,44 @@
+h2{
+    font-size: 17px;
+}
+.bg1{
+    background-image: url("background/blanc.jpg");
+}
+#Blanc{
+    height: 40px;
+    width: 62px;
+}
+#Bleu{
+    height: 40px;
+    width: 62px;
+}
+#BleuFoncee{
+    height: 40px;
+    width: 62px;
+}
+#Gris{
+    height: 40px;
+    width: 62px;
+}
+
+#Noir{
+    height: 40px;
+    width: 62px;
+}
+#Rose{
+    height: 40px;
+    width: 62px;
+}
+#Rouge{
+    height: 40px;
+    width: 62px;
+}
+#wrong{
+    color: red;
+}
+#valide{
+    color: green;
+}
+.letter{
+    height: 200px;
+}

@@ -1,0 +1,26 @@
+.bigbox{
+    overflow: hidden;
+    height: 400px;
+    width: 100%;
+    min-height: 315px;
+}
+.bg1{
+    background-image: url("img/joker badass.jpg");
+    background-size: contain;
+    height: 297px;
+    transition: all 0.5s ease;
+}
+.bg1:hover{
+    transform: scale(1.2);
+    background-image: url("img/joker cab.jpg");
+}
+.bg2{
+    background-image: url("img/drake no.jpg");
+    background-size: contain;
+    height: 297px;
+    transition: all 0.5s ease;
+}
+.bg2:hover{
+    transform: scale(1.2);
+    background-image: url("img/drake yes.jpg");
+}
