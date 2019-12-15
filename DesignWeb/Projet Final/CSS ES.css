@@ -132,3 +132,91 @@
     height: 90px;
     width: 90px;
 }
+.bg1{
+    background-image: url("image/skyrim map.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.bg2{
+    background-image: url("image/Online Elsweyr.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1080px;
+}
+.bg3{
+    background-image: url("image/online backgroun.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1080px;
+    width: 1903px;
+}
+.bg4{
+    background-image: url("image/Online Cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+}
+.bg5{
+    background-image: url("image/online background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 750px;
+    width: 1903px;
+}
+.bg6{
+    background-image: url("image/elder scrolls 6 background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1080px;
+}
+.bg7{
+    background-color: black;
+}
+.bg8{
+    background-image: url("image/elder scrolls 6 background1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1080px;
+}
+.bg9{
+    background-color: white;
+}
+.cover{
+    height: 800px;
+    width: 680px;
+}
+.opacity{
+    opacity: .7;
+    background-color: #6c757d;
+}
+.jedi{
+    color: black;
+    opacity: 1;
+}
+.text6{
+    color: white;
+}
+.row1{
+    height: 900px;
+}
+.bouton1{
+    position: center;
+}
+.oblivion{
+    height: 1080px;
+    width: 1920px;
+}
+.font{
+    color: white;
+}
+.h4color{
+    color: white;
+}
