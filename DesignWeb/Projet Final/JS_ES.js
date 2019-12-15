@@ -56,60 +56,60 @@ $('#Femelle').click(function(){
 $('#bouton_création').click(function(){
     if(genre === "male"){
         if(race === "breton"){
-            $('#creation').css("background-image",'url("image/race création/bréton male.jpg")');
+            $('#creation').css("background-image",'url("image/race_création/bréton_male.jpg")');
         }
         if(race === "blanc"){
-            $('#creation').css("background-image",'url("image/race création/high elf homme.jpg")');
+            $('#creation').css("background-image",'url("image/race_création/high elf_homme.jpg")');
         }
         if(race === "nordique"){
-            $('#creation').css("background-image",'url("image/race création/Nordique male.jpg")');
+            $('#creation').css("background-image",'url("image/race_création/Nordique_male.jpg")');
         }
         if(race === "rougeguarde"){
-            $('#creation').css("background-image",'url("image/race création/redguard homme.jpg")');
+            $('#creation').css("background-image",'url("image/race_création/redguard_homme.jpg")');
         }
         if(race === "bois"){
-            $('#creation').css("background-image",'url("image/race création/wood elfe homme.jpg")');
+            $('#creation').css("background-image",'url("image/race_création/wood elfe_homme.jpg")');
         }
         if(race === "noir"){
-            $('#creation').css("background-image",'url("image/race création/dark elfe homme.jpg")');
+            $('#creation').css("background-image",'url("image/race_création/dark elfe_homme.jpg")');
         }
         if(race === "orc"){
-            $('#creation').css("background-image",'url("image/race création/orques male.jpg")');
+            $('#creation').css("background-image",'url("image/race_création/orques_male.jpg")');
         }
         if(race === "khajiit"){
-            $('#creation').css("background-image",'url("image/race création/khajiit Male.jpg")');
+            $('#creation').css("background-image",'url("image/race_création/khajiit_Male.jpg")');
         }
         if(race === "argonien"){
-            $('#creation').css("background-image",'url("image/race création/argonien male.jpg")');
+            $('#creation').css("background-image",'url("image/race_création/argonien_male.jpg")');
         }
     }
     if(genre === "femelle"){
         if(race === "breton"){
-            $('#creation').css("background-image",'url("image/race création/bréton femme.jpg")');
+            $('#creation').css("background-image",'url("image/race_création/bréton_femme.jpg")');
         }
         if(race === "blanc"){
-            $('#creation').css("background-image",'url("image/race création/high elf femme.jpg")');
+            $('#creation').css("background-image",'url("image/race_création/high_elf_femme.jpg")');
         }
         if(race === "nordique"){
-            $('#creation').css("background-image",'url("image/race création/Nordique Femmelle.jpg")');
+            $('#creation').css("background-image",'url("image/race_création/Nordique_Femmelle.jpg")');
         }
         if(race === "rougeguarde"){
-            $('#creation').css("background-image",'url("image/race création/redguard femme.jpg")');
+            $('#creation').css("background-image",'url("image/race_création/redguard_femme.jpg")');
         }
         if(race === "bois"){
-            $('#creation').css("background-image",'url("image/race création/elfe des bois femme.jpg")');
+            $('#creation').css("background-image",'url("image/race_création/elfe_des_bois_femme.jpg")');
         }
         if(race === "noir"){
-            $('#creation').css("background-image",'url("image/race création/dark elfe femme.jpg")');
+            $('#creation').css("background-image",'url("image/race_création/dark_elfe_femme.jpg")');
         }
         if(race === "orc"){
-            $('#creation').css("background-image",'url("image/race création/orques female.jpg")');
+            $('#creation').css("background-image",'url("image/race_création/orques_female.jpg")');
         }
         if(race === "khajiit"){
-            $('#creation').css("background-image",'url("image/race création/Khajiit Femelle.jpg")');
+            $('#creation').css("background-image",'url("image/race_création/Khajiit_Femelle.jpg")');
         }
         if(race === "argonien"){
-            $('#creation').css("background-image",'url("image/race création/argonien femelle.jpg")');
+            $('#creation').css("background-image",'url("image/race_création/argonien_femelle.jpg")');
         }
     }
     $('#name').show();

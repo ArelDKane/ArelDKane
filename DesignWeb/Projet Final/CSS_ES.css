@@ -133,21 +133,21 @@
     width: 90px;
 }
 .bg1{
-    background-image: url("image/skyrim map.jpg");
+    background-image: url("image/skyrim_map.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
 }
 .bg2{
-    background-image: url("image/Online Elsweyr.jpg");
+    background-image: url("image/Online_Elsweyr.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 1080px;
 }
 .bg3{
-    background-image: url("image/online backgroun.jpg");
+    background-image: url("image/online_backgroun.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -155,14 +155,14 @@
     width: 1903px;
 }
 .bg4{
-    background-image: url("image/Online Cover.jpg");
+    background-image: url("image/Online_Cover.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 700px;
 }
 .bg5{
-    background-image: url("image/online background.jpg");
+    background-image: url("image/online_background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -170,7 +170,7 @@
     width: 1903px;
 }
 .bg6{
-    background-image: url("image/elder scrolls 6 background.jpg");
+    background-image: url("image/elder_scrolls_6_background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -180,7 +180,7 @@
     background-color: black;
 }
 .bg8{
-    background-image: url("image/elder scrolls 6 background1.jpg");
+    background-image: url("image/elder_scrolls_6_background1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
