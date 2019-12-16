@@ -59,7 +59,7 @@ $('#bouton_création').click(function(){
             $('#creation').css("background-image",'url("image/race_création/bréton_male.jpg")');
         }
         if(race === "blanc"){
-            $('#creation').css("background-image",'url("image/race_création/high elf_homme.jpg")');
+            $('#creation').css("background-image",'url("image/race_création/high_elf_homme.jpg")');
         }
         if(race === "nordique"){
             $('#creation').css("background-image",'url("image/race_création/Nordique_male.jpg")');
@@ -68,10 +68,10 @@ $('#bouton_création').click(function(){
             $('#creation').css("background-image",'url("image/race_création/redguard_homme.jpg")');
         }
         if(race === "bois"){
-            $('#creation').css("background-image",'url("image/race_création/wood elfe_homme.jpg")');
+            $('#creation').css("background-image",'url("image/race_création/wood_elfe_homme.jpg")');
         }
         if(race === "noir"){
-            $('#creation').css("background-image",'url("image/race_création/dark elfe_homme.jpg")');
+            $('#creation').css("background-image",'url("image/race_création/dark_elfe_homme.jpg")');
         }
         if(race === "orc"){
             $('#creation').css("background-image",'url("image/race_création/orques_male.jpg")');

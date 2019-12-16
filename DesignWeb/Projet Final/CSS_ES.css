@@ -151,23 +151,24 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 1080px;
-    width: 1903px;
+    width: 100%;
+    height: auto;
 }
 .bg4{
     background-image: url("image/Online_Cover.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 700px;
+    height: 596px;
+    width: 1060px;
 }
 .bg5{
     background-image: url("image/online_background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 750px;
-    width: 1903px;
+    width: 100%;
+    height: auto;
 }
 .bg6{
     background-image: url("image/elder_scrolls_6_background.jpg");
@@ -175,7 +176,10 @@
     background-repeat: no-repeat;
     background-position: center;
     height: 1080px;
+    width: 1920px;
 }
+
+
 .bg7{
     background-color: black;
 }
@@ -204,14 +208,25 @@
 .text6{
     color: white;
 }
-.row1{
-    height: 900px;
+@media only screen and (min-width: 900px){
+    .row1{
+        height: 900px;
+    }
+}
+@media only screen and (min-width: 700px){
+    .row1{
+        height: 300px;
+    }
+}
+@media only screen and (min-width: 300px){
+    .row1{
+        height: 900px;
+    }
 }
 .bouton1{
     position: center;
 }
 .oblivion{
-    height: 1080px;
     width: 1920px;
 }
 .font{
